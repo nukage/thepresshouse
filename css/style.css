@@ -14,7 +14,7 @@ body, html {
   color: #777;
   width: 100% !important;
   height: 100% !important;
-  background: #333; }
+  background: #fff; }
 
 h1 {
   font-weight: 700; }
@@ -587,7 +587,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 /* Footer Section*/
 #footer {
-  background: #333;
+  background: #fff;
   color: #777;
   padding: 20px 0;
   text-align: center;
