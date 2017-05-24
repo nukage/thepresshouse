@@ -684,18 +684,31 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   max-width: 100%;
   margin: auto; }
 
+@media (max-width: 767px) {
+  .slides {
+    max-width: 563px;
+    margin: auto; } }
+
 .slides p {
   position: absolute;
   width: 100%; }
 
+.slides .caption {
+  position: absolute;
+  bottom: -10px;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 5px;
+  font-size: 12px; }
+
 .slides a {
   position: absolute;
-  bottom: 17px;
-  left: 20px;
+  bottom: 0px;
+  right: 0px;
   color: white;
+  font-size: 12px;
   font-weight: 500;
-  padding: 8px;
-  border-radius: 5px;
+  padding: 5px;
   background: rgba(0, 0, 0, 0.2); }
 
 .slides a:hover {
@@ -899,7 +912,7 @@ h1 {
 
 .social-info a[href*="instagram"]:before {
   content: "\f16d";
-  padding: 8px 9px; }
+  padding: 7px 9px; }
 
 .social-info a[href*="instagram"]:hover:before {
   background-color: #966842; }
@@ -942,6 +955,33 @@ h1 {
 
 .staffmember .social-info a {
   width: 99%; }
+
+.footer-social-info {
+  position: relative;
+  width: 150px;
+  padding-top: 5px; }
+  .footer-social-info li {
+    display: block; }
+  @media (max-width: 996px) {
+    .footer-social-info {
+      float: left;
+      margin-left: 15px; } }
+  .footer-social-info a {
+    display: inline;
+    width: auto; }
+  .footer-social-info a:hover {
+    background: none; }
+  .footer-social-info a:hover:before {
+    background: #90e1ff !important; }
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: polygon(0px 0px, 0px 0px, 0px 0px, 0px 0px);
+  position: absolute !important;
+  white-space: nowrap;
+  height: 1px;
+  width: 1px;
+  overflow: hidden; }
 
 @media (max-width: 992px) {
   .navbar-header {
@@ -1151,7 +1191,6 @@ ol.type li a:hover {
   display: block; }
 
 #twitter-widget {
-  height: 150px;
   overflow: auto;
   width: auto; }
   #twitter-widget #ctf-more {
@@ -1185,7 +1224,6 @@ ol.type li a:hover {
 .bcard img {
   float: left;
   margin-right: 10px;
-  margin-bottom: 40px;
   position: relative;
   top: -10px; }
 
@@ -1255,12 +1293,22 @@ ol.type li a:hover {
   .single-tribe_events .tribe-events-cal-links {
     clear: left; } }
 
+.wdi_load_more_wrap, .wdi_spinner_wrap, .wdi_load_more {
+  border-radius: 0;
+  display: none;
+  padding: 0;
+  visibility: hidden; }
+
+#twitter-widget {
+  color: #ccc; }
+
 body {
   background-image: url("../img/layout/PRESSHOUSE_LOGOTEST.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: white; }
+  background-color: white;
+  background-attachment: fixed; }
 
 .animsition {
-  background-color: #363636;
+  background-color: #fff;
   height: 100vh; }
