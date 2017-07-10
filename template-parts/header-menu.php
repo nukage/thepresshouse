@@ -8,6 +8,7 @@
         <li> <a class="page-scroll" href="<?php echo get_site_url() ; ?>/events">Events</a> </li>
         <li> <a class="page-scroll" href="<?php echo get_site_url() ; ?>/tour">Tour</a> </li>
         <li> <a class="page-scroll" href="<?php echo get_site_url() ; ?>/press-release">Releases</a> </li>
+         <li> <a class="page-scroll" href="<?php echo get_site_url() ; ?>/services">Services</a> </li>
        </li><li>
        <form role="search" method="get" id="searchform" class="searchform navbar-form" action="<?php echo get_site_url() ; ?>"> 
 <!-- <label class="screen-reader-text" for="s">Search for:</label>  -->

@@ -1312,6 +1312,29 @@ ol.type li a:hover {
 #twitter-widget {
   color: #ccc; }
 
+.page-template-default h1 {
+  text-align: center; }
+
+.page-template-default h2 {
+  color: #2665a1;
+  font-size: 19px;
+  line-height: 20px;
+  margin-bottom: 10px; }
+
+@media (min-width: 768px) {
+  .page-template-default p {
+    font-size: 1.1em; }
+  .page-template-default .entry-content {
+    -webkit-column-count: 3;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 3;
+    /* Firefox */
+    column-count: 3;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: #ccc;
+    column-gap: 1em; } }
+
 body {
   background-image: url("../img/layout/PRESSHOUSE_LOGOTEST.png");
   background-repeat: no-repeat;
@@ -1322,3 +1345,8 @@ body {
 .animsition {
   background-color: #fff;
   height: 100vh; }
+
+@media (max-width: 1200px) {
+  .nav > li > a {
+    padding-left: 5px;
+    padding-right: 5px; } }
