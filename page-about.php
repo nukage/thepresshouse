@@ -111,12 +111,10 @@ $content_parts = get_extended( $content );
 
 // Output part before <!--more--> tag
 echo $content_parts['main'];
+
+ 
                                     ?> 
-                                    <div id="bio-more" class="collapse">
-                                    <?php  the_content( '', TRUE ); ?>
-                                    </div><!--/bio-more-->
-                                    <a style="display:block;" class="bio-read-btn" data-toggle="collapse" data-target="#bio-more">Read More<span class="chevron"></span></a>
-?> 
+ 
 
           </div>
         </div>
