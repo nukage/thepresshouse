@@ -112,10 +112,19 @@ $content_parts = get_extended( $content );
 // Output part before <!--more--> tag
 echo $content_parts['main'];
 
+
  
                                     ?> 
  
-
+   <?php
+    if( strpos( $post->post_content, '<!--more-->' ) ) { ?>
+         <div id="bio-more<?php echo the_id() ;?>" class="collapse">
+                                    <?php  echo $content_parts['extended']; ?>
+                                    </div><!--/bio-more-->
+                                    <a style="display:block;" class="bio-read-btn" data-toggle="collapse" data-target="#bio-more<?php echo the_id() ;?>">Read More<span class="chevron"></span></a>
+   <?php }
+     
+?> 
           </div>
         </div>
 

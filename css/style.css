@@ -882,6 +882,9 @@ h1 {
   -webkit-transition: .5s;
   transition: .5s; }
 
+.social-info a.bio-read-btn:before {
+  display: none; }
+
 .social-info a:hover:before {
   background-color: #3d5b99; }
 
@@ -1025,21 +1028,21 @@ h1 {
   text-indent: -999em;
   width: 200px; }
 
-.biography .bio-read-btn {
+.bio-read-btn {
   cursor: pointer; }
 
-.biography .bio-read-btn .chevron {
+.bio-read-btn .chevron {
   font-family: fontawesome;
   padding-left: 5px;
   font-size: 12px; }
 
-.biography .bio-read-btn .chevron:after {
+.bio-read-btn .chevron:after {
   content: "\f196"; }
 
-.biography .bio-read-btn[aria-expanded="true"] .chevron:after {
+.bio-read-btn[aria-expanded="true"] .chevron:after {
   content: "\f147"; }
 
-.biography .bio-read-btn[aria-expanded="false"] .chevron:after {
+.bio-read-btn[aria-expanded="false"] .chevron:after {
   content: "\f196"; }
 
 .press-releases-archive h2.widget-title {
@@ -1312,29 +1315,6 @@ ol.type li a:hover {
 #twitter-widget {
   color: #ccc; }
 
-.page-template-default h1 {
-  text-align: center; }
-
-.page-template-default h2 {
-  color: #2665a1;
-  font-size: 19px;
-  line-height: 20px;
-  margin-bottom: 10px; }
-
-@media (min-width: 768px) {
-  .page-template-default p {
-    font-size: 1.1em; }
-  .page-template-default .entry-content {
-    -webkit-column-count: 3;
-    /* Chrome, Safari, Opera */
-    -moz-column-count: 3;
-    /* Firefox */
-    column-count: 3;
-    column-rule-style: solid;
-    column-rule-width: 1px;
-    column-rule-color: #ccc;
-    column-gap: 1em; } }
-
 body {
   background-image: url("../img/layout/PRESSHOUSE_LOGOTEST.png");
   background-repeat: no-repeat;
@@ -1350,3 +1330,22 @@ body {
   .nav > li > a {
     padding-left: 5px;
     padding-right: 5px; } }
+
+.page-id-404 h1 {
+  text-align: center; }
+
+.page-id-404 h2 {
+  color: #2665a1;
+  text-align: center;
+  font-size: 19px;
+  line-height: 20px;
+  margin-bottom: 10px; }
+
+@media (min-width: 768px) {
+  .page-id-404 p {
+    font-size: 1.1em;
+    margin-bottom: 30px; }
+  .page-id-404 .entry-content {
+    max-width: 700px;
+    margin: auto;
+    text-align: justify; } }
