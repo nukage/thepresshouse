@@ -1316,7 +1316,7 @@ ol.type li a:hover {
   color: #ccc; }
 
 body {
-  background-image: url("../img/layout/PRESSHOUSE_LOGOTEST.png");
+  background-image: url("../img/layout/PRESSHOUSE_LOGO.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-color: white;
@@ -1324,7 +1324,8 @@ body {
 
 .animsition {
   background-color: #fff;
-  height: 100vh; }
+  height: 100%;
+  z-index: 100; }
 
 @media (max-width: 1200px) {
   .nav > li > a {
