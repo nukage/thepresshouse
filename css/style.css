@@ -1359,3 +1359,6 @@ body {
     max-width: 700px;
     margin: auto;
     text-align: justify; } }
+
+.tribe-js hr {
+  display: none; }
