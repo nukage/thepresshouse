@@ -4,7 +4,7 @@
       
        <!--  <li> <a class="page-scroll" href="<?php echo get_site_url() ; ?>/">Home</a> </li> -->
          <li> <a class="page-scroll" href="<?php echo get_site_url() ; ?>/about">About</a> </li>
-        <li> <a class="page-scroll" href="<?php echo get_site_url() ; ?>/artists">Clients</a> </li>
+        <li> <a class="page-scroll" href="<?php echo get_site_url() . '/' . strtolower(get_option('clientstxt')) . '">' . get_option('clientstxt')  ; ?>"</a> </li>
         <li> <a class="page-scroll" href="<?php echo get_site_url() ; ?>/events">Events</a> </li>
         <li> <a class="page-scroll" href="<?php echo get_site_url() ; ?>/tour">Tour</a> </li>
         <li> <a class="page-scroll" href="<?php echo get_site_url() ; ?>/press-release">Releases</a> </li>
