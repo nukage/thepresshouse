@@ -1315,6 +1315,10 @@ ol.type li a:hover {
 #twitter-widget {
   color: #ccc; }
 
+.invisible {
+  display: none;
+  position: absolute; }
+
 body {
   background-image: url("../img/layout/PRESSHOUSE_LOGO.png");
   background-repeat: no-repeat;
@@ -1362,3 +1366,22 @@ body {
 
 .tribe-js hr {
   display: none; }
+
+.soc-menu-icons-mobile {
+  margin-left: 10px; }
+  @media (min-width: 993px) {
+    .soc-menu-icons-mobile {
+      display: none; } }
+
+.soc-menu-icons {
+  display: block;
+  margin-left: 215px;
+  margin-top: 15px;
+  height: 40px;
+  position: absolute; }
+  @media (max-width: 992px) {
+    .soc-menu-icons {
+      display: none; } }
+
+.navbar-custom .containter {
+  overflow: auto; }
