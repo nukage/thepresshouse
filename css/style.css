@@ -1368,7 +1368,8 @@ body {
   display: none; }
 
 .soc-menu-icons-mobile {
-  margin-left: 10px; }
+  margin-left: 10px;
+  font-size: 18px; }
   @media (min-width: 993px) {
     .soc-menu-icons-mobile {
       display: none; } }
@@ -1376,12 +1377,26 @@ body {
 .soc-menu-icons {
   display: block;
   margin-left: 215px;
-  margin-top: 15px;
+  margin-top: 13px;
   height: 40px;
-  position: absolute; }
+  position: absolute;
+  font-size: 16px; }
+  .soc-menu-icons i {
+    margin-left: 3px; }
+    @media (max-width: 1200px) {
+      .soc-menu-icons i {
+        margin-left: -1px; } }
   @media (max-width: 992px) {
     .soc-menu-icons {
       display: none; } }
+  @media (max-width: 1200px) {
+    .soc-menu-icons {
+      margin-top: 18px;
+      margin-left: 210px;
+      font-size: 12px; } }
 
 .navbar-custom .containter {
   overflow: auto; }
+
+.navbar-custom i:hover {
+  color: #2665a1; }
