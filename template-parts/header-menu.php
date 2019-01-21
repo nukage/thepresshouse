@@ -1,6 +1,6 @@
     <div class="soc-menu-icons">
       <a href="https://www.facebook.com/The-Press-House-215959480570/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-      <a href="https://twitter.com/sarahjane_frost" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/thepresshousepr" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
       <a href="https://www.instagram.com/thepresshousepr/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 </div><div class="collapse navbar-collapse navbar-right navbar-main-collapse">
       <ul class="nav navbar-nav">
@@ -15,7 +15,7 @@
          <li> <a class="page-scroll" href="<?php echo get_site_url() ; ?>/services">Services</a> </li>
              <div class="soc-menu-icons-mobile">
       <a href="https://www.facebook.com/The-Press-House-215959480570/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-      <a href="https://twitter.com/sarahjane_frost" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/thepresshousepr" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
       <a href="https://www.instagram.com/thepresshousepr/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 </div>
        </li><li>
